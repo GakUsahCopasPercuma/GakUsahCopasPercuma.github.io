@@ -918,14 +918,35 @@ element.style {
     background: #27AE60;
     color: #ffffff;
 }
-	   #pilihan-kurir {
-    position: relative;
+	   #pilihan-kurir select, #lokasi-cod, .form-checkout select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 14px;
     display: block;
-    width: calc(100% - 30px);
-    margin: 10px 0 20px 0;
-    padding: 0 15px;
-		  background:#dde1e7; 
+    border: none;
+    border-bottom: 1px solid #999;
+    border-radius: 0;
+    background: #dde1e7;
+    color: #444;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    background-image: url(data:image/svg+xml,%3Csvg\ style=\'fill:rgba\(0,0,0,.4\);\'\ xmlns=\'http://www.w3.org/2000/svg\'\ viewBox=\'0\ 0\ 512\ 512\'%3E%3Cpath\ d=\'M256\ 294.1L383\ 167c9.4-9.4\ 24.6-9.4\ 33.9\ 0s9.3\ 24.6\ 0\ 34L273\ 345c-9.1\ 9.1-23.7\ 9.3-33.1.7L95\ 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3\ 7-17c9.4-9.4\ 24.6-9.4\ 33.9\ 0l127.1\ 127z\'%3E%3C/path%3E%3C/svg%3E);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: 10px;
+    background-size: 20px auto;
+    padding-right: 45px;
+    position: relative;
 }
+   
+
+    
+    
+
+
 	    /* Item Produk */
 .item-data-produk .itemRow {
     position: relative;
